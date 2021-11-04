@@ -1,0 +1,255 @@
+.header { background-color: crimson;
+    background-image:linear-gradient(crimson, rgba(199, 231, 15, 0.5));
+    border-radius: 5px;
+}
+
+.list-menu {
+    position: relative;
+}
+
+.list-menu li {
+    list-style: none;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.header-list ul li a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.list-menu li a:hover {
+    color: rgb(3, 3, 30.7);
+   
+}
+
+.list-menu2 {
+    width: 150px;
+    position: absolute;
+    top: auto;
+    display: none;
+    background-color: rgba(18, 200, 206, 0.6);
+}
+
+.list-menu2 a {
+    list-style: none;
+    color: rgba(231, 77, 77,0.5);
+    display: block;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.list-menu2 a:hover {
+    color: rgba(2, 2, 2, 0.5);
+    background-color: rgba(94, 90, 90, 0.5);
+}
+
+.list-menu li:hover .list-menu2 {
+    display: block;
+}
+
+@media only screen and (min-width:800px) {
+    #navbarNavAltMarkup {
+        box-sizing: padding-box;
+        padding-left: 400px;
+    }
+
+    .navbar-brand {
+        padding-left: 100px;
+        box-sizing: padding-box;
+    }
+
+    .navbar {background-color: crimson;
+        background-image:linear-gradient(crimson, rgba(199, 231, 15, 0.5));
+        z-index: 0;
+    }
+}
+
+/* Author */
+
+.Author {
+    /* position: relative; */
+    background-color: rgba(17, 6, 17, 0.3);
+    background-image: linear-gradient(rgba(255, 0, 200, 0.5),rgba(17, 6, 17, 0.3));
+    border-radius: 5px;
+    
+}
+
+.Author-img {
+    width: 80%;
+    height: 60vh;
+    background-image: url(https://pngbackground.com/files/preview/684x527/11614838960drtarjcyfhxcywrgvbpo0v9f9qeoddqghvupitqcinxqrhvsmpz6ewuiaxkezaqx37g19sot2bapgr4mzyuppih1dyg3huqjarlj.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.Author-card {
+    background-color: rgba(240, 239, 168, 0.2);
+    color: rgb(243, 19, 11);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(243, 19, 11, 0.3);
+}
+
+@media only screen and (min-width:800px) {
+    .Author {
+        width: 100%;
+        position: relative;
+        margin: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Author-card {
+        width: 40%;
+        position: absolute;
+        top: 45%;
+        left: 58%;
+    }
+}
+
+/* features */
+
+.item-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.item-result {
+    width: 45%;
+    box-shadow: 2px 3px 3px 4px rgba(64, 233, 148, 0.5);
+}
+
+@media only screen and (min-width:800px) {
+    .features {
+        width: 100%;
+        position: relative;
+    }
+
+    .features-item {
+        display: flex;
+        position: absolute;
+        top: 90%;
+        justify-content: space-around;
+        
+    }
+
+    /* .item-box {
+        margin-right: -20px;
+    } */
+
+    .item-result {
+        width: 25%;
+        height: 100px;
+        padding-top: 10px;
+        box-shadow: 2px 3px 3px 4px rgba(64, 233, 148, 0.5);
+        
+    }
+}
+
+
+/* prices */
+
+@media only screen and (min-width:800px) {
+    #prices {
+        margin: 50px;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .prices-item {
+        display: flex;
+    }
+    
+    .item-card {
+        width: 20%;
+        box-shadow: 2px 3px 3px 4px rgba(236, 191, 191, 0.5);
+    }
+
+}
+
+
+
+
+/* download */
+
+.Download {
+    background-color: rgba(93, 93, 233,0.8);
+    background-image: linear-gradient(rgba(93, 93, 233,0.8),rgba(231, 167, 167, 0.8));
+
+}
+
+.btn-btn1 {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.btn-btn2 {
+    display: inline-block; 
+}
+
+
+/* Reader’s Say */
+
+@media only screen and (min-width:800px) {
+    .Reader’s-item {
+        display: flex;
+        /* background-color: rgba(2, 2, 255, 0.8);
+        background-image: linear-gradient(rgba(2, 2, 255, 0.8),rgba(237, 238, 186, 0.7)); */
+        border-radius: 10px;
+    }
+
+    .say-item1 {
+        width: 30%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .say-item2 {
+        width: 30%;
+    }
+
+    .say-item3 {
+        width: 30%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+
+/* footer */
+
+
+@media only screen and  (min-width:800px) {
+    #footer {
+        width: 100%;
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-around;
+    }
+
+    .footer-about {
+        width: 40%;
+        padding: 10px;
+    }
+
+    .footer-Newsletter {
+        width: 30%;
+        padding: 10px;
+    }
+
+    .footer-Follow {
+        width: 30%;
+        padding: 10px;
+    }
+
+    .footer-Follow span:hover {
+        opacity: 0.5;
+    }
+
+}
